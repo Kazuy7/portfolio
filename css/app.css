@@ -1,0 +1,93 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.link {
+    /* border: 1px solid red; */
+    border-left: 1px solid white;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.links {
+    border: 1px solid red;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+h1 {
+    /* border: 1px solid red; */
+    font-size: 60px;
+    text-shadow: 2px 2px 2px black;
+}
+
+h3 {
+    /* border: 1px solid red; */
+    font-size: 40px;
+    text-shadow: 2px 2px 2px black;
+}
+
+header {
+    color: white;
+    /* min-height: 60vh; */
+    background-image: url(../img/meu-setup3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.foto {
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    width: 100%;
+}
+
+#p1 {
+    text-align: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#p2 {
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contatos {
+    min-height: 60vh;
+    background-image: url(../img/lucas\ bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    text-align: end;
+
+}
+
+.rodape-box {
+    min-height: 20vh;
+    /* border: 6px solid rgb(226, 10, 255); */
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(../img/lucas\ bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed; */
+}
+
+.rodape {
+    /* border: 6px solid rgb(226, 10, 255); */
+    text-align: center;
+    margin-top: 20px;
+}
