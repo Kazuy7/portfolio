@@ -4,90 +4,97 @@
     padding: 0 auto;
 }
 
-.link {
-    /* border: 1px solid red; */
-    border-left: 1px solid white;
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+/* INÍCIO CABEÇALHO */
+.head {
     color: white;
-    text-decoration: none;
-    padding-left: 10px;
-    font-size: 20px;
+    min-height: 50vh;
+    background-image: url(../img/meu-setup4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
 
 .links {
-    border: 1px solid red;
-    display: flex;
-    justify-content: end;
-    align-items: end;
+    padding-top: 300px;
+    text-align: center;
 }
 
-h1 {
+.link {
     /* border: 1px solid red; */
-    font-size: 60px;
-    text-shadow: 2px 2px 2px black;
-}
-
-h3 {
-    /* border: 1px solid red; */
-    font-size: 40px;
-    text-shadow: 2px 2px 2px black;
-}
-
-header {
+    border-right: 1px solid white;
     color: white;
-    /* min-height: 60vh; */
-    background-image: url(../img/meu-setup3.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 25px;
 }
+/* FIM CABEÇALHO */
 
+/* INÍCIO APRESENTAÇÃO */
 .foto {
     /* border: 1px solid red; */
     border-radius: 20px;
     width: 100%;
 }
 
-#p1 {
+.p1 {
+    /* border: 1px solid red; */
     text-align: end;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#p2 {
+.p2 {
+    /* border: 1px solid red; */
     text-align: start;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/* FIM APRESENTAÇÃO */
 
-.contatos {
-    min-height: 60vh;
-    background-image: url(../img/lucas\ bg.png);
-    background-repeat: no-repeat;
+/* INÍCIO TRAGETÓRIA PROFISSIONAL */
+.traget-profissional {
+    /* border: 1px solid red; */
+    background-color: rgb(36, 36, 36);
+    background-image: linear-gradient(to top, black, transparent, black), url(../img/wallpaper-dark.jpg);
     background-size: cover;
-    color: black;
-    text-align: end;
-
 }
 
-.rodape-box {
-    min-height: 20vh;
-    /* border: 6px solid rgb(226, 10, 255); */
-    background-color: black;
-    color: white;
+.experiencias {
+    /* border: 1px solid red; */
+    width: 80%;
+    min-height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-image: url(../img/lucas\ bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    background-attachment: fixed; */
+}
+/* FIM TRAGETÓRIA PROFISSIONAL */
+
+/* INÍCIO CARACTERÍSTICAS & INFORMAÇÕES PESSOAIS */
+.infos {
+    color: white;
+    background-color: black;
+}
+/* FIM CARACTERÍSTICAS & INFORMAÇÕES PESSOAIS */
+
+/* INÍCIO RODAPÉ */
+.rodape-box {
+    min-height: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.rodape {
-    /* border: 6px solid rgb(226, 10, 255); */
-    text-align: center;
-    margin-top: 20px;
+.link-rodape {
+    /* border: 1px solid red; */
+    text-decoration: none;
+    color: white;
 }
+/* FIM RODAPÉ */
