@@ -9,6 +9,26 @@
     padding: 0;
 }
 
+.tamanho-fonte-nome {
+    font-size: 70px;
+}
+
+.tamanho-fonte-cargo {
+    font-size: 50px;
+}
+
+/*INÍCIO ZOOM DAS IMAGENS */
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02); 
+}
+/*FIM ZOOM DAS IMAGENS */
+
 /* INÍCIO CABEÇALHO */
 .head {
     color: white;
@@ -25,24 +45,26 @@
 }
 
 .link {
-    /* border: 1px solid red; */
     border-right: 1px solid white;
     color: white;
     text-decoration: none;
     padding-right: 10px;
     font-size: 25px;
 }
+
+.link:hover {
+    color: grey;
+    transition: all 0.2s;
+}
 /* FIM CABEÇALHO */
 
 /* INÍCIO APRESENTAÇÃO */
 .foto {
-    /* border: 1px solid red; */
     border-radius: 20px;
     width: 100%;
 }
 
 .p1 {
-    /* border: 1px solid red; */
     text-align: end;
     display: flex;
     justify-content: center;
@@ -50,7 +72,6 @@
 }
 
 .p2 {
-    /* border: 1px solid red; */
     text-align: start;
     display: flex;
     justify-content: center;
@@ -60,14 +81,12 @@
 
 /* INÍCIO TRAGETÓRIA PROFISSIONAL */
 .traget-profissional {
-    /* border: 1px solid red; */
     background-color: rgb(36, 36, 36);
     background-image: linear-gradient(to top, black, transparent, black), url(../img/wallpaper-dark.jpg);
     background-size: cover;
 }
 
 .experiencias {
-    /* border: 1px solid red; */
     width: 80%;
     min-height: 40vh;
     display: flex;
@@ -93,8 +112,17 @@
 }
 
 .link-rodape {
-    /* border: 1px solid red; */
     text-decoration: none;
     color: white;
+}
+
+.zoom-rodape {
+    transition: transform .2s;
+}
+
+.zoom-rodape:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
 }
 /* FIM RODAPÉ */
