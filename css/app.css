@@ -13,8 +13,24 @@
     font-size: 70px;
 }
 
+.tamanho-fonte-nome-mobile {
+    font-size: 40px;
+}
+
 .tamanho-fonte-cargo {
     font-size: 50px;
+}
+
+.tamanho-fonte-cargo-bobile {
+    font-size: 30px;
+}
+
+.bg-title {
+    background-image: linear-gradient(to right, rgb(44, 44, 44), transparent)
+}
+
+.borda {
+    border: 1px solid red;
 }
 
 /*INÍCIO ZOOM DAS IMAGENS */
@@ -56,11 +72,33 @@
     color: grey;
     transition: all 0.2s;
 }
+
+.link-celular {
+    /* border: 1px solid red; */
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 25px;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+.link-celular:hover {
+    color: grey;
+    transition: all 0.2s;
+}
+
+.head-celular {
+    display: flex;
+    flex-direction: column;
+}
 /* FIM CABEÇALHO */
 
 /* INÍCIO APRESENTAÇÃO */
 .foto {
-    border-radius: 20px;
+    border-radius: 10px;
     width: 100%;
 }
 
@@ -95,12 +133,25 @@
 }
 /* FIM TRAGETÓRIA PROFISSIONAL */
 
-/* INÍCIO CARACTERÍSTICAS & INFORMAÇÕES PESSOAIS */
+/* INÍCIO INFORMAÇÕES */
 .infos {
     color: white;
     background-color: black;
 }
-/* FIM CARACTERÍSTICAS & INFORMAÇÕES PESSOAIS */
+/* FIM INFORMAÇÕES */
+
+/* INÍCIO GALERIA */
+.galeria {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.galeria-foto {
+    width: 95%;
+    border-radius: 10px;
+}
+/* FIM GALERIA */
 
 /* INÍCIO RODAPÉ */
 .rodape-box {
