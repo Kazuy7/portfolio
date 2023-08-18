@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Lucas Silva - Dev</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="frontend/bootstrap.min.css">
+    <link rel="stylesheet" href="frontend/app.css">
 </head>
 
 <body>
@@ -18,8 +18,8 @@
             <h1 class="text-warning">PÁGINA EM DESENVOLVIMENTO...</h1>
             <div class="p-3">
                 <div class="text-end d-none d-sm-block">
-                    <h1 class="tamanho-fonte-nome">LUCAS SILVA</h1>
-                    <h3 class="tamanho-fonte-cargo">DEV</h3>
+                    <h1 class="tamanho-fonte-nome sombra">LUCAS SILVA</h1>
+                    <h3 class="tamanho-fonte-cargo sombra">DEV</h3>
                 </div>
                 
                 
@@ -34,8 +34,8 @@
                 <!-- MOBILE -->
                 
                 <div class="text-end d-sm-none">
-                    <h1 class="tamanho-fonte-nome-mobile">LUCAS SILVA</h1>
-                    <h3 class="tamanho-fonte-cargo-mobile">DEV</h3>
+                    <h1 class="tamanho-fonte-nome-mobile sombra">LUCAS SILVA</h1>
+                    <h3 class="tamanho-fonte-cargo-mobile sombra">DEV</h3>
                 </div>
                 
                 <div class="links d-sm-none" name="visao-celular">
@@ -79,7 +79,7 @@
                             estagiando no INPE - Instituto Nacional de Pesquisas Espaciais em
                             Cachoeira Paulista/SP como programador WEB.</p>
                         <p>Altura: 1,74m</p>
-                        <p>Idade: 26 anos</p>
+                        <p>Idade: <span id="idade"></span> anos</p>
                         <p>Estado civil: Solteiro</p>
 
                     </div>
@@ -115,7 +115,7 @@
                             estagiando no INPE - Instituto Nacional de Pesquisas Espaciais como programador WEB em
                             Cachoeira Paulista/SP.</p>
                         <p>Altura: 1,74m</p>
-                        <p>Idade: 26 anos</p>
+                        <p>Idade: <span id="idademob"></span> anos</p>
                         <p>Estado civil: Solteiro</p>
                     </div>
                 </div>
@@ -501,8 +501,9 @@
         <!-- RODAPE -->
     </footer>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="backend/bootstrap.bundle.min.js"></script>
+    <script src="backend/idade.js"></script>
+    <script src="backend/idademob.js"></script>
 </body>
 
 </html>

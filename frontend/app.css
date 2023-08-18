@@ -17,6 +17,10 @@
     font-size: 40px;
 }
 
+.sombra {
+    text-shadow: 3px 3px rgb(27, 27, 27);
+}
+
 .tamanho-fonte-cargo {
     font-size: 50px;
 }
@@ -61,8 +65,8 @@
 }
 
 .link {
-    border-right: 1px solid white;
-    color: white;
+    border-right: 1px solid #ffc107;
+    color: #ffc107;
     text-decoration: none;
     padding-right: 10px;
     font-size: 25px;
@@ -70,14 +74,14 @@
 
 .link:hover {
     color: grey;
-    transition: all 0.2s;
+    transition: all 0.5s;
 }
 
 .link-celular {
     /* border: 1px solid red; */
-    border-right: 1px solid white;
-    border-bottom: 1px solid white;
-    color: white;
+    border-right: 1px solid #ffc107;
+    border-bottom: 1px solid #ffc107;
+    color: #ffc107;
     text-decoration: none;
     padding-right: 10px;
     font-size: 25px;
@@ -85,10 +89,10 @@
     margin-bottom: 10px;
 }
 
-.link-celular:hover {
-    color: grey;
+/* .link-celular:hover {
+    color: rgb(211, 7, 7);
     transition: all 0.2s;
-}
+} */
 
 .head-celular {
     display: flex;
@@ -174,20 +178,23 @@
 .zoom-rodape:hover {
     -ms-transform: scale(1.2);
     -webkit-transform: scale(1.2);
-    transform: scale(1.2); 
+    transform: scale(1.2);
+    color: grey;
 }
 /* FIM RODAPÉ */
 
 /* PÁGINA DE CURRÍCULO */
-.main-curriculo {
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 20px;
+@media(min-width: 767px){
+    .main-curriculo {
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 20px;
+    }
 }
 /* FIM PÁGINA DE CURRÍCULO */
 
 .aviso {
-    color: yellow;
+    color: #ffc107;
     font-size: 50px;
     min-height: 30vh;
     display: flex;
