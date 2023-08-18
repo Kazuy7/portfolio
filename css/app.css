@@ -184,3 +184,13 @@
     padding-right: 100px;
     padding-top: 20px;
 }
+/* FIM PÁGINA DE CURRÍCULO */
+
+.aviso {
+    color: yellow;
+    font-size: 50px;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
