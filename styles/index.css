@@ -49,56 +49,7 @@
 }
 /*FIM ZOOM DAS IMAGENS */
 
-/* INÍCIO CABEÇALHO */
-.head {
-    color: white;
-    min-height: 50vh;
-    background-image: url(../img/meu-setup4.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-}
 
-.links {
-    padding-top: 300px;
-    text-align: center;
-}
-
-.link {
-    border-right: 1px solid #ffc107;
-    color: #ffc107;
-    text-decoration: none;
-    padding-right: 10px;
-    font-size: 25px;
-}
-
-.link:hover {
-    color: grey;
-    transition: all 0.5s;
-}
-
-.link-celular {
-    /* border: 1px solid red; */
-    border-right: 1px solid #ffc107;
-    border-bottom: 1px solid #ffc107;
-    color: #ffc107;
-    text-decoration: none;
-    padding-right: 10px;
-    font-size: 25px;
-    margin-left: 0;
-    margin-bottom: 10px;
-}
-
-/* .link-celular:hover {
-    color: rgb(211, 7, 7);
-    transition: all 0.2s;
-} */
-
-.head-celular {
-    display: flex;
-    flex-direction: column;
-}
-/* FIM CABEÇALHO */
 
 /* INÍCIO APRESENTAÇÃO */
 .foto {
@@ -157,31 +108,7 @@
 }
 /* FIM GALERIA */
 
-/* INÍCIO RODAPÉ */
-.rodape-box {
-    min-height: 20vh;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.link-rodape {
-    text-decoration: none;
-    color: white;
-}
-
-.zoom-rodape {
-    transition: transform .2s;
-}
-
-.zoom-rodape:hover {
-    -ms-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-    color: grey;
-}
-/* FIM RODAPÉ */
 
 /* PÁGINA DE CURRÍCULO */
 @media(min-width: 767px){

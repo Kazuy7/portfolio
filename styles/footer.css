@@ -1,0 +1,28 @@
+.rodape-box {
+    min-height: 20vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon a {
+    text-decoration: none;
+    color: white;
+}
+
+.icon {
+    margin: 0;
+}
+
+.zoom-rodape {
+    transition: transform .2s;
+}
+
+.zoom-rodape:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #ffc107;
+}
