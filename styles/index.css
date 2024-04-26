@@ -86,6 +86,11 @@
     justify-content: center;
     align-items: center;
 }
+
+p a {
+    color: #ffc107;
+    text-decoration: none;
+}
 /* FIM TRAGETÓRIA PROFISSIONAL */
 
 /* INÍCIO INFORMAÇÕES */
@@ -107,18 +112,6 @@
     border-radius: 10px;
 }
 /* FIM GALERIA */
-
-
-
-/* PÁGINA DE CURRÍCULO */
-@media(min-width: 767px){
-    .main-curriculo {
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-top: 20px;
-    }
-}
-/* FIM PÁGINA DE CURRÍCULO */
 
 .aviso {
     color: #ffc107;
